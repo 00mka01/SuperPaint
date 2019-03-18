@@ -41,7 +41,6 @@
             this.Pen1.Name = "Pen1";
             this.Pen1.Size = new System.Drawing.Size(54, 21);
             this.Pen1.TabIndex = 1;
-            this.Pen1.TabStop = true;
             this.Pen1.Text = "Pen";
             this.Pen1.UseVisualStyleBackColor = true;
             this.Pen1.CheckedChanged += new System.EventHandler(this.Pen1_CheckedChanged);
@@ -53,7 +52,6 @@
             this.Rectangle.Name = "Rectangle";
             this.Rectangle.Size = new System.Drawing.Size(93, 21);
             this.Rectangle.TabIndex = 3;
-            this.Rectangle.TabStop = true;
             this.Rectangle.Text = "Rectangle";
             this.Rectangle.UseVisualStyleBackColor = true;
             this.Rectangle.CheckedChanged += new System.EventHandler(this.Rectangle_CheckedChanged);
@@ -65,7 +63,6 @@
             this.Circle.Name = "Circle";
             this.Circle.Size = new System.Drawing.Size(64, 21);
             this.Circle.TabIndex = 4;
-            this.Circle.TabStop = true;
             this.Circle.Text = "Circle";
             this.Circle.UseVisualStyleBackColor = true;
             this.Circle.CheckedChanged += new System.EventHandler(this.Circle_CheckedChanged);

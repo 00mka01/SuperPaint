@@ -18,6 +18,7 @@ namespace mypaint
         int pX = -1;
         int pY = -1;
 
+
         Bitmap drawing;  
         
         public Penna()

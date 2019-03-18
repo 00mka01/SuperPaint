@@ -9,13 +9,14 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace mypaint // Ändring 13:58 4/3
+namespace mypaint 
 {
     public partial class Form1 : Form
     {
         FigurRektangel rekt;
         FigurCirkel cirk;
-        Penna pen;        
+        Penna pen;
+        Ritplatta Rityta1;
 
         public Form1()
         {
@@ -24,19 +25,20 @@ namespace mypaint // Ändring 13:58 4/3
         
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            Rityta1 = new Ritplatta();
+            this.Controls.Add(Rityta1);
         }
 
         private void Rectangle_CheckedChanged(object sender, EventArgs e)
         {
-            rekt = new FigurRektangel();
-            this.Controls.Add(rekt);
+            Rityta1.Ritläge = "rektangel";
+
+            
         }
 
         private void Circle_CheckedChanged(object sender, EventArgs e)
         {
-            cirk = new FigurCirkel();
-            this.Controls.Add(cirk);
+            Rityta1.Ritläge = "cirkel";
         }
 
         private void Pen1_CheckedChanged(object sender, EventArgs e)
@@ -49,10 +51,12 @@ namespace mypaint // Ändring 13:58 4/3
         {
             ColorDialog c = new ColorDialog();
             if(c.ShowDialog() == DialogResult.OK)
-            {
-                btnColor.BackColor = c.Color;                                 
+           {
+            btnColor.BackColor = c.Color;
+                
             }
         }
 
+        
     }
 }

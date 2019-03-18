@@ -18,3 +18,13 @@ C:\Users\00mka01\Desktop\mypaint\mypaint\obj\Debug\mypaint.csproj.GenerateResour
 C:\Users\00mka01\Desktop\mypaint\mypaint\obj\Debug\mypaint.csproj.CoreCompileInputs.cache
 C:\Users\00mka01\Desktop\mypaint\mypaint\obj\Debug\mypaint.exe
 C:\Users\00mka01\Desktop\mypaint\mypaint\obj\Debug\mypaint.pdb
+C:\Users\03mbo01\source\repos\SuperPaint\bin\Debug\mypaint.exe.config
+C:\Users\03mbo01\source\repos\SuperPaint\bin\Debug\mypaint.exe
+C:\Users\03mbo01\source\repos\SuperPaint\bin\Debug\mypaint.pdb
+C:\Users\03mbo01\source\repos\SuperPaint\obj\Debug\mypaint.csprojResolveAssemblyReference.cache
+C:\Users\03mbo01\source\repos\SuperPaint\obj\Debug\mypaint.Form1.resources
+C:\Users\03mbo01\source\repos\SuperPaint\obj\Debug\mypaint.Properties.Resources.resources
+C:\Users\03mbo01\source\repos\SuperPaint\obj\Debug\mypaint.csproj.GenerateResource.Cache
+C:\Users\03mbo01\source\repos\SuperPaint\obj\Debug\mypaint.csproj.CoreCompileInputs.cache
+C:\Users\03mbo01\source\repos\SuperPaint\obj\Debug\mypaint.exe
+C:\Users\03mbo01\source\repos\SuperPaint\obj\Debug\mypaint.pdb
