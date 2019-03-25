@@ -23,6 +23,7 @@ namespace mypaint
         }
         protected override void OnPaint(PaintEventArgs e)
         {
+            
             if (figures.Count > 0) e.Graphics.DrawRectangles(Pens.Red, figures.ToArray());
             if (drawing) e.Graphics.DrawRectangle(Pens.Black, getRectangle());
         }

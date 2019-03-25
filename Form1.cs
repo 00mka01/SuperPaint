@@ -53,7 +53,9 @@ namespace mypaint
             ColorDialog c = new ColorDialog();
             if(c.ShowDialog() == DialogResult.OK)
            {
-            btnColor.BackColor = c.Color;
+           // btnColor.BackColor = c.Color;
+                Globals.myColor = c.Color;
+
                 
             }
         }
