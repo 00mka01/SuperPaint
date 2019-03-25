@@ -29,11 +29,13 @@ namespace mypaint
         
         
         {
+            
             this.BackColor = Color.White;
             this.DoubleBuffered = true;
             this.SetStyle(ControlStyles.ResizeRedraw, true);
             this.Width = 400;
             this.Height = 600;
+            drawer = new Bitmap(this.Width, this.Height, this.CreateGraphics());
         }
         protected Rectangle getRectangle()
         {

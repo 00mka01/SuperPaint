@@ -32,7 +32,7 @@ namespace mypaint
         private void Rectangle_CheckedChanged(object sender, EventArgs e)
         {
             Rityta1.Ritläge = "rektangel";
-
+            
             
         }
 
@@ -45,6 +45,7 @@ namespace mypaint
         {
             pen = new Penna();           
             this.Controls.Add(pen);
+            Rityta1.Ritläge = "penna";
         }
 
         private void button1_Click(object sender, EventArgs e)
